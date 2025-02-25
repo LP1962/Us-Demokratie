@@ -1,0 +1,58 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VTIMEZONE
+TZID:Europe/Paris
+BEGIN:DAYLIGHT
+DTSTART:20250330T030000
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:CEST
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:20241027T020000
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:CET
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20250224T133112Z
+UID:7c899011-cb78-4b48-a5ab-da0a34f6d7f8
+DTSTART;TZID=Europe/Paris:20250225T123500
+DTEND;TZID=Europe/Paris:20250225T124000
+CLASS:PRIVATE
+DESCRIPTION:Zugangsinformationen:\n* Mit Fahrstuhl\n* Barrierefreier Zugang
+ \n\nSonstige Informationen:\n* Die Praxis befindet sich in der ersten und 
+ zweiten Etage.\nUm Ihren Termin abzusagen oder zu verschieben\, klicken Si
+ e auf den folgenden Link :\nhttps://www.doctolib.de/sessions/anonymous/35W
+ Akuh9\n\nÜber Doctolib
+GEO:52.5002959;13.3491544
+LOCATION:Kleiststraße 34\, 10787 Berlin
+ORGANIZER;CN=Doctolib:mailto:<no-reply@doctolib.de>
+PRIORITY:2
+SUMMARY:Termin bei Herr Dr. med. Tobias Blömer
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT2H
+DESCRIPTION:Zugangsinformationen:\n* Mit Fahrstuhl\n* Barrierefreier Zugang
+ \n\nSonstige Informationen:\n* Die Praxis befindet sich in der ersten und 
+ zweiten Etage.\nUm Ihren Termin abzusagen oder zu verschieben\, klicken Si
+ e auf den folgenden Link :\nhttps://www.doctolib.de/sessions/anonymous/35W
+ Akuh9\n\nÜber Doctolib
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-P2D
+DESCRIPTION:Zugangsinformationen:\n* Mit Fahrstuhl\n* Barrierefreier Zugang
+ \n\nSonstige Informationen:\n* Die Praxis befindet sich in der ersten und 
+ zweiten Etage.\nUm Ihren Termin abzusagen oder zu verschieben\, klicken Si
+ e auf den folgenden Link :\nhttps://www.doctolib.de/sessions/anonymous/35W
+ Akuh9\n\nÜber Doctolib
+END:VALARM
+END:VEVENT
+END:VCALENDAR
